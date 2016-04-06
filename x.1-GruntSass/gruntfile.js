@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         				style: 'compressed'
       				},
       				files: {                         // Dictionary of files 
-        				'<% filename %>.sass': 'style.css'       // 'destination': 'source'        				
+        				'.scss': '*.css'       // 'destination': 'source'        				
       				}
     			}
   			}
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 			uglify: {
 				build:{
 					src:'src/*.js',
-					dest:'build/.min.js'
+					dest:'build/*.min.js'
 				}*/
 			
 	//Sass
